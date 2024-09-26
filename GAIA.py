@@ -21,7 +21,7 @@ def download_random_file_from_bucket():
     client = storage.Client(credentials=credentials)
 
     # Get the bucket
-    bucket = client.get_bucket(BUCKET_NAME)
+    bucket = client.bucket(BUCKET_NAME)
 
     # Define the folder in GCP bucket
     folder_prefix = '2023_gaia_dataset/validation/'

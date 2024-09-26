@@ -168,3 +168,4 @@ sttest.json
 tensorflow.txt
 tf2_15.txt
 .DS_Store
+.streamlit/secrets.toml
